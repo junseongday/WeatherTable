@@ -13,6 +13,11 @@
 		5B63492924B3D46100E633B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B63492724B3D46100E633B3 /* Main.storyboard */; };
 		5B63492B24B3D46300E633B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B63492A24B3D46300E633B3 /* Assets.xcassets */; };
 		5B63492E24B3D46300E633B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B63492C24B3D46300E633B3 /* LaunchScreen.storyboard */; };
+		5B63493B24B3D4DF00E633B3 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B63493624B3D4DF00E633B3 /* snow.png */; };
+		5B63493C24B3D4DF00E633B3 /* blizzard.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B63493724B3D4DF00E633B3 /* blizzard.png */; };
+		5B63493D24B3D4DF00E633B3 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B63493824B3D4DF00E633B3 /* sunny.png */; };
+		5B63493E24B3D4DF00E633B3 /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B63493924B3D4DF00E633B3 /* cloudy.png */; };
+		5B63493F24B3D4DF00E633B3 /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B63493A24B3D4DF00E633B3 /* rainy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5B63492A24B3D46300E633B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B63492D24B3D46300E633B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B63492F24B3D46300E633B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B63493624B3D4DF00E633B3 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		5B63493724B3D4DF00E633B3 /* blizzard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blizzard.png; sourceTree = "<group>"; };
+		5B63493824B3D4DF00E633B3 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
+		5B63493924B3D4DF00E633B3 /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy.png; sourceTree = "<group>"; };
+		5B63493A24B3D4DF00E633B3 /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		5B63492024B3D46100E633B3 /* WeatherTable */ = {
 			isa = PBXGroup;
 			children = (
+				5B63493524B3D4C900E633B3 /* Resource */,
 				5B63492124B3D46100E633B3 /* AppDelegate.swift */,
 				5B63492324B3D46100E633B3 /* SceneDelegate.swift */,
 				5B63492524B3D46100E633B3 /* ViewController.swift */,
@@ -65,6 +76,18 @@
 				5B63492F24B3D46300E633B3 /* Info.plist */,
 			);
 			path = WeatherTable;
+			sourceTree = "<group>";
+		};
+		5B63493524B3D4C900E633B3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5B63493724B3D4DF00E633B3 /* blizzard.png */,
+				5B63493924B3D4DF00E633B3 /* cloudy.png */,
+				5B63493A24B3D4DF00E633B3 /* rainy.png */,
+				5B63493624B3D4DF00E633B3 /* snow.png */,
+				5B63493824B3D4DF00E633B3 /* sunny.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +148,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B63493E24B3D4DF00E633B3 /* cloudy.png in Resources */,
+				5B63493C24B3D4DF00E633B3 /* blizzard.png in Resources */,
+				5B63493D24B3D4DF00E633B3 /* sunny.png in Resources */,
 				5B63492E24B3D46300E633B3 /* LaunchScreen.storyboard in Resources */,
 				5B63492B24B3D46300E633B3 /* Assets.xcassets in Resources */,
+				5B63493B24B3D4DF00E633B3 /* snow.png in Resources */,
 				5B63492924B3D46100E633B3 /* Main.storyboard in Resources */,
+				5B63493F24B3D4DF00E633B3 /* rainy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
